@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-column-gap: 5%;
+    grid-template-columns: 25% 11% auto;
+    grid-row-gap: 0%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.grid-item{
+    position: relative;
+}
+
+.item1{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.item2{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
