@@ -17,7 +17,8 @@ h2{
 }
 
 .item1{
-    grid-column: 1 / span 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-row: 1;
     padding-top: 11px;
     padding-left: 11px;
@@ -115,3 +116,29 @@ h2{
     color: rgb(90, 88, 88);
     font-size: 15px;
 }
+
+.item9{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 1;
+    background-image: url("../img/header_bg.png");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+    color: black;
+  }
